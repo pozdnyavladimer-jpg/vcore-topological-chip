@@ -2,7 +2,17 @@
 ![License](https://img.shields.io/badge/license-AGPLv3-green)
 ![Status](https://img.shields.io/badge/status-research--preview-orange)
 # V-CORE: Topological State Architecture for AI and Bio-Simulation
+## Current Scope
 
+This repository demonstrates:
+- Software-level topological state modeling
+- Context filtering experiments
+- Conceptual 3D state hierarchy
+
+This project does NOT:
+- Replace binary computing
+- Implement physical hardware
+- Provide performance benchmarks yet
 Author: Володимир Поздняк  
 License: GNU AGPLv3  
 Status: Research Preview  

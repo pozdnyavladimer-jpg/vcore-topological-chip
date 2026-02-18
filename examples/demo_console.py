@@ -101,3 +101,31 @@ def main():
 
 if __name__ == "__main__":
     main()
+def demo_chemistry():
+    print("\n" + "=" * 70)
+    print("DEMO 4) CHEMISTRY FORMULAS -> V-CORE (No molecular brute force)")
+    print("=" * 70)
+
+    from adapters.chem_formula import VChemicalFormulaAdapter
+    core = VSriYantraCore(base_threshold=6)
+    chem = VChemicalFormulaAdapter()
+
+    formulas = ["H2O", "C6H12O6", "Fe2O3", "NaCl"]
+
+    for f in formulas:
+        packets = chem.to_packets(f)
+        for pkt in packets:
+            core.ingest(pkt)
+
+        print(f"\nFORMULA: {f} | events={len(packets)}")
+        print(core.pretty_faces())
+        print("REPORT:", core.report())
+
+
+# і в main():
+def main():
+    demo_words()
+    demo_phoenix_seed()
+    demo_protein_design()
+    demo_chemistry()
+      

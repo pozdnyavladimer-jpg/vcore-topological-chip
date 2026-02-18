@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "V-CORE: Topological State Architecture for AI and Bio-Simulation"
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Поздняк"
+    given-names: "Володимир"
+year: 2026
+version: 0.1.0
+license: "AGPL-3.0"
+repository-code: "https://github.com/pozdnyavladimer-jpg/vcore-topological-chip"

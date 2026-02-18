@@ -1,3 +1,6 @@
+![Version](https://img.shields.io/badge/version-v0.1.0-blue)
+![License](https://img.shields.io/badge/license-AGPLv3-green)
+![Status](https://img.shields.io/badge/status-research--preview-orange)
 # V-CORE: Topological State Architecture for AI and Bio-Simulation
 
 Author: Володимир Поздняк  
